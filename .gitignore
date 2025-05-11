@@ -1,0 +1,64 @@
+# ---------------------
+# Python Cache & Bytecode
+# ---------------------
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---------------------
+# Virtual Environment Folders
+# ---------------------
+venv/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ---------------------
+# Jupyter Notebook Artifacts
+# ---------------------
+.ipynb_checkpoints/
+
+# ---------------------
+# Output & Generated Files
+# ---------------------
+output/
+**/output/
+*.csv
+*.log
+*.tmp
+
+# ---------------------
+# OS & Editor Artifacts
+# ---------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ---------------------
+# Sphinx Documentation Builds
+# ---------------------
+docs/_build/
+build/
+dist/
+*.egg-info/
+
+# ---------------------
+# IDE & Editor Settings
+# ---------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ---------------------
+# Security: Private Keys or Credentials (Adjust if needed)
+# ---------------------
+*.pem
+*.key
+*.env
+.env.*
+
